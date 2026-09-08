@@ -45,7 +45,7 @@ User-agent: Googlebot
 Allow: /
 
 # LLM standard specification endpoints (https://llmstxt.org)
-# llms.txt: llms.txt
-# llms-full.txt: llms-full.txt
+# llms.txt: https://ankitpandit.dev/llms.txt
+# llms-full.txt: https://ankitpandit.dev/llms-full.txt
 
-Sitemap: sitemap.xml
+Sitemap: https://ankitpandit.dev/sitemap.xml

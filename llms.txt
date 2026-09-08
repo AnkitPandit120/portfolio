@@ -25,7 +25,7 @@
 
 ## Key Projects & Online Presence
 
-- [Portfolio Website](https://ankitpandit120.github.io/portfolio/): Official landing page featuring interactive visual systems and background details.
+- [Portfolio Website](https://ankitpandit.dev/): Official landing page featuring interactive visual systems and background details.
 - [GitHub Repositories](https://github.com/AnkitPandit120?tab=repositories): Repository showcase containing source code, experiments, and developer tools.
 
 ## Optional Extended Documentation
