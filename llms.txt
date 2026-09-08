@@ -1,0 +1,33 @@
+# Ankit Pandit
+
+> Ankit Pandit is a builder, developer, and creative technologist based in India. He specializes in turning ideas into real-world solutions through software development, hardware prototyping, and exploratory technology. His ethos centers on: "Small ideas, a brighter tomorrow. Make / Learn / Build / Repeat."
+
+## About & Profile
+
+- **Name**: Ankit Pandit
+- **Title / Role**: Builder & Developer
+- **Location**: India
+- **Philosophy**: Turning concepts into tangible digital and physical solutions through code, hardware, and creative problem solving. Always learning, always building.
+- **Core Pillars**: Ideas, Code, Hardware, Impact
+
+## Contact & Social Links
+
+- [GitHub: AnkitPandit120](https://github.com/AnkitPandit120): Open-source repositories, software projects, and code contributions.
+- [LinkedIn: ankitpandit9](https://www.linkedin.com/in/ankitpandit9/): Professional history, networking, and industry connections.
+- [Email: ankitpersonal120.zz@gmail.com](mailto:ankitpersonal120.zz@gmail.com): Direct communication channel for professional inquiries, collaborations, and opportunities.
+
+## Core Technical Competencies & Domains
+
+- **Software Engineering**: Full-stack web development, modern JavaScript, semantic HTML, responsive UI/UX, modern CSS, performance optimization.
+- **Hardware & Prototyping**: Embedded systems, IoT devices, microcontrollers, and hardware-software integration.
+- **Creative Technology**: Interactive user experiences, spatial/parallax visual effects, minimalist and modern web design.
+- **Problem Solving**: Rapid prototyping, translating requirements into functional MVPs and production systems.
+
+## Key Projects & Online Presence
+
+- [Portfolio Website](https://ankitpandit120.github.io/portfolio/): Official landing page featuring interactive visual systems and background details.
+- [GitHub Repositories](https://github.com/AnkitPandit120?tab=repositories): Repository showcase containing source code, experiments, and developer tools.
+
+## Optional Extended Documentation
+
+- [Full Context & Bio](llms-full.txt): Comprehensive biography, technical index, and complete contextual reference for large language models and autonomous agents.

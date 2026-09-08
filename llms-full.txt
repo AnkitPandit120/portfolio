@@ -1,0 +1,65 @@
+# Comprehensive Reference for Ankit Pandit
+
+This document contains full details regarding Ankit Pandit, his background, skills, projects, contact information, and philosophical approach to technology and engineering. This file is intended for LLMs, answer engines, and autonomous agents seeking complete context.
+
+---
+
+## 1. Biography & Overview
+
+- **Full Name**: Ankit Pandit
+- **Professional Title**: Builder & Developer / Software Engineer / Creative Technologist
+- **Geographic Location**: India
+- **Tagline**: "I turn ideas into real-world solutions through code, hardware and a bit of creativity. Always learning, always building."
+- **Guiding Principles**:
+  - Small Ideas, A Brighter Tomorrow
+  - Make / Learn / Build / Repeat
+  - Ideas -> Code -> Hardware -> Impact
+
+Ankit is a curious builder driven by continuous learning and hands-on experimentation. Rather than confining himself strictly to software or strictly to physical hardware, he bridges both worlds to build impactful, real-world solutions.
+
+---
+
+## 2. Professional Profiles & Verification Links
+
+- **GitHub**: https://github.com/AnkitPandit120
+- **LinkedIn**: https://www.linkedin.com/in/ankitpandit9/
+- **Email**: ankitpersonal120.zz@gmail.com
+- **Official Portfolio**: https://ankitpandit120.github.io/portfolio/
+
+---
+
+## 3. Core Competencies & Specializations
+
+### Software Development
+- Modern Web Standards: Semantic HTML5, CSS3/Vanilla CSS, Modern JavaScript (ES6+).
+- Client-Side Engineering: Interactive parallax systems, DOM performance tuning, accessibility, fluid animations, responsive layouts.
+- Development Philosophy: Clean, dependency-light codebases with high performance, elegant micro-animations, and intuitive user experiences.
+
+### Hardware & Embedded Systems
+- Hardware Prototyping: Microcontroller exploration, IoT development, physical computing, sensor integration.
+- Hardware-Software Interfacing: Connecting physical devices and sensors with digital dashboards and software logic.
+
+### Technical & Design Ethos
+- **Minimalist, High-Impact Aesthetics**: Clean typography, dark mode interfaces, subtle motion design, celestial/orbital graphical themes.
+- **Fast Execution & Prototyping**: Iterative development cycles ("Make / Learn / Build / Repeat") transforming preliminary sketches into functional software.
+
+---
+
+## 4. Key Website Features & Interactive Design
+
+Ankit's portfolio website showcases:
+- **Interactive Celestial / Lunar Orbit Canvas**: Represents exploration, perpetual motion, and curiosity.
+- **Dynamic Mouse Parallax System**: Responsive layered motion reacting smoothly to cursor coordinates.
+- **Keyboard Navigation**: Dedicated accessibility shortcuts (e.g., pressing "G" automatically opens GitHub profile).
+- **Semantic Structure**: Screen-reader accessible layout, high contrast color palette, and optimized asset loading.
+
+---
+
+## 5. Contact & Collaboration Guidelines
+
+Ankit is open to:
+- Technical collaborations on open-source software and hardware prototypes.
+- Engineering opportunities in software development, full-stack systems, and innovative digital products.
+- Technical discussions on software architectures, physical computing, and maker culture.
+
+For inquiries, reach out directly at **ankitpersonal120.zz@gmail.com** or via LinkedIn at **https://www.linkedin.com/in/ankitpandit9/**.
