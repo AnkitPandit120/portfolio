@@ -1,0 +1,1178 @@
+/* =====================================================
+   RESET
+===================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f7f7f5;
+  color: #111;
+  overflow: hidden;
+}
+
+
+/* =====================================================
+   VARIABLES
+===================================================== */
+
+:root {
+
+  --black: #111111;
+  --dark: #222222;
+  --gray: #697078;
+  --light-gray: #8d9297;
+
+  --line: rgba(30, 30, 30, 0.18);
+
+  --green: #18b878;
+
+  --mono: "IBM Plex Mono", monospace;
+}
+
+
+/* =====================================================
+   MAIN
+===================================================== */
+
+.landing {
+
+  position: relative;
+
+  width: 100vw;
+  height: 100vh;
+
+  min-height: 650px;
+
+  overflow: hidden;
+
+  background: #f7f7f5;
+}
+
+
+/* =====================================================
+   BACKGROUND IMAGE
+===================================================== */
+
+.background {
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 0;
+
+  background-image: url("assets/mainbg.png");
+
+  background-size: cover;
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  transform: scale(1.01);
+
+}
+
+
+/* subtle wash over image */
+
+.background-overlay {
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  pointer-events: none;
+
+  background:
+    linear-gradient(90deg,
+      rgba(247, 247, 245, 0.20),
+      rgba(247, 247, 245, 0.04));
+
+}
+
+
+/* =====================================================
+   TOP BAR
+===================================================== */
+
+.topbar {
+
+  position: absolute;
+
+  top: 42px;
+  left: 4%;
+
+  right: 4%;
+
+  z-index: 10;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+
+.brand {
+
+  font-family: var(--mono);
+
+  font-size: 12px;
+
+  font-weight: 500;
+
+  letter-spacing: 0.22em;
+
+}
+
+
+.top-status {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  font-family: var(--mono);
+
+  font-size: 9px;
+
+  letter-spacing: 0.18em;
+
+}
+
+
+.status-dot {
+
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: var(--green);
+
+  box-shadow:
+    0 0 0 4px rgba(24, 184, 120, 0.12);
+
+  animation: pulse 2.5s infinite;
+
+}
+
+
+/* =====================================================
+   LEFT INDEX
+===================================================== */
+
+.side-index {
+
+  position: absolute;
+
+  left: 3.6%;
+  top: 19%;
+
+  z-index: 8;
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 90px;
+
+}
+
+
+.index-number {
+
+  font-family: var(--mono);
+
+  font-size: 10px;
+
+  letter-spacing: 0.1em;
+
+  color: #5e6368;
+
+}
+
+
+.index-line {
+
+  width: 20px;
+  height: 1px;
+
+  background: var(--black);
+
+  margin: 13px 0 18px;
+}
+
+
+.index-items {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 9px;
+
+}
+
+
+.index-items span {
+
+  font-family: var(--mono);
+
+  font-size: 9px;
+
+  letter-spacing: 0.18em;
+
+  color: #72777c;
+
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero {
+
+  position: absolute;
+
+  z-index: 10;
+
+  left: 19.2%;
+
+  top: 24%;
+
+  width: 530px;
+
+}
+
+
+.eyebrow {
+
+  font-family: var(--mono);
+
+  font-size: 10px;
+
+  letter-spacing: 0.25em;
+
+  color: #747a80;
+
+  margin-bottom: 18px;
+
+}
+
+
+.eyebrow span {
+
+  margin: 0 9px;
+
+  color: #9a9da0;
+
+}
+
+
+/* =====================================================
+   NAME
+===================================================== */
+
+.name-wrapper {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+
+.name {
+
+  display: flex;
+
+  flex-direction: column;
+
+  font-size: clamp(78px, 8.5vw, 135px);
+
+  line-height: 0.84;
+
+  letter-spacing: 0.02em;
+
+  font-weight: 800;
+
+}
+
+
+.name-first {
+
+  color: #0d0d0d;
+
+  letter-spacing: 0.025em;
+
+}
+
+
+.name-last {
+
+  font-weight: 300;
+
+  color: #6f767e;
+
+  letter-spacing: 0.03em;
+
+}
+
+
+/* =====================================================
+   NAME NOTE
+===================================================== */
+
+.name-note {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 22px;
+
+  margin-left: 38px;
+
+  margin-top: 35px;
+
+}
+
+
+.note-line {
+
+  width: 1px;
+
+  height: 90px;
+
+  background: rgba(20, 20, 20, 0.55);
+
+}
+
+
+.name-note div {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+
+}
+
+
+.name-note span {
+
+  font-family: var(--mono);
+
+  font-size: 8px;
+
+  letter-spacing: 0.2em;
+
+  color: #676d73;
+
+}
+
+
+/* =====================================================
+   DIVIDER
+===================================================== */
+
+.hero-divider {
+
+  width: 30px;
+
+  height: 2px;
+
+  background: var(--black);
+
+  margin-top: 35px;
+
+  margin-bottom: 25px;
+
+}
+
+
+/* =====================================================
+   INTRO
+===================================================== */
+
+.intro {
+
+  max-width: 450px;
+
+  font-size: 16px;
+
+  line-height: 1.7;
+
+  font-weight: 400;
+
+  color: #3f464c;
+
+}
+
+
+.intro span {
+
+  color: #70767c;
+
+}
+
+
+/* =====================================================
+   SOCIALS
+===================================================== */
+
+.socials {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  margin-top: 32px;
+
+}
+
+
+.socials a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #171717;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.social-icon {
+  flex-shrink: 0;
+  color: #171717;
+  display: block;
+}
+
+.socials a:hover {
+  opacity: 0.55;
+  transform: translateY(-1px);
+}
+
+
+.socials i {
+
+  width: 1px;
+
+  height: 13px;
+
+  background: rgba(0, 0, 0, 0.25);
+
+}
+
+
+/* =====================================================
+   MOON SYSTEM
+===================================================== */
+
+.moon-system {
+
+  position: absolute;
+
+  z-index: 5;
+
+  width: 390px;
+
+  height: 390px;
+
+  right: 11%;
+
+  top: 10%;
+
+}
+
+
+/*
+    These circles are intentionally subtle.
+    Your mainbg.png supplies the actual moon.
+*/
+
+.orbit {
+
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  border: 1px solid rgba(80, 80, 80, 0.16);
+
+  border-radius: 50%;
+
+  transform: translate(-50%, -50%);
+
+}
+
+
+.orbit-one {
+
+  width: 270px;
+  height: 270px;
+}
+
+
+.orbit-two {
+
+  width: 350px;
+  height: 350px;
+
+  border-style: dashed;
+
+  border-color: rgba(80, 80, 80, 0.12);
+
+  animation: orbitRotate 30s linear infinite;
+
+}
+
+
+.orbit-dot {
+
+  position: absolute;
+
+  width: 5px;
+  height: 5px;
+
+  background: #555;
+
+  border-radius: 50%;
+
+}
+
+
+.dot-one {
+
+  top: 20px;
+  left: 50%;
+
+}
+
+
+.dot-two {
+
+  top: 50%;
+  right: 18px;
+
+}
+
+
+.dot-three {
+
+  bottom: 20px;
+  left: 50%;
+
+}
+
+
+/* =====================================================
+   RIGHT NOTE
+===================================================== */
+
+.right-note {
+
+  position: absolute;
+
+  z-index: 10;
+
+  right: 15.5%;
+
+  top: 39%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 6px;
+
+}
+
+
+.right-note span {
+
+  font-family: var(--mono);
+
+  font-size: 8px;
+
+  letter-spacing: 0.23em;
+
+  color: #74797e;
+
+}
+
+
+.right-note div {
+
+  width: 11px;
+
+  height: 1px;
+
+  background: #777;
+
+  margin-top: 12px;
+
+}
+
+
+/* =====================================================
+   BOTTOM LEFT
+===================================================== */
+
+.bottom-left {
+
+  position: absolute;
+
+  z-index: 10;
+
+  left: 3.6%;
+
+  bottom: 5%;
+
+  display: flex;
+
+  gap: 15px;
+
+}
+
+
+.bottom-line {
+
+  width: 1px;
+
+  height: 67px;
+
+  background: #555;
+
+}
+
+
+.bottom-left div {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+
+}
+
+
+.bottom-left span {
+
+  font-family: var(--mono);
+
+  font-size: 8px;
+
+  letter-spacing: 0.2em;
+
+  color: #6e7378;
+
+}
+
+
+/* =====================================================
+   SIGNATURE
+===================================================== */
+
+.signature {
+
+  position: absolute;
+
+  right: 4%;
+
+  bottom: 4.5%;
+
+  z-index: 10;
+
+  display: flex;
+
+  gap: 5px;
+
+  align-items: center;
+
+  font-family: var(--mono);
+
+  font-size: 11px;
+
+}
+
+
+.signature-line {
+
+  width: 27px;
+
+  height: 1px;
+
+  background: #555;
+
+  margin-right: 8px;
+
+}
+
+
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+
+  position: absolute;
+
+  z-index: 10;
+
+  left: 4%;
+
+  right: 4%;
+
+  bottom: 1.5%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  font-family: var(--mono);
+
+  font-size: 7px;
+
+  letter-spacing: 0.16em;
+
+  color: rgba(40, 40, 40, 0.55);
+
+}
+
+
+/* =====================================================
+   ANIMATIONS
+===================================================== */
+
+@keyframes pulse {
+
+  0% {
+    box-shadow:
+      0 0 0 0 rgba(24, 184, 120, 0.25);
+  }
+
+  70% {
+    box-shadow:
+      0 0 0 6px rgba(24, 184, 120, 0);
+  }
+
+  100% {
+    box-shadow:
+      0 0 0 0 rgba(24, 184, 120, 0);
+  }
+
+}
+
+
+@keyframes orbitRotate {
+
+  from {
+    transform:
+      translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform:
+      translate(-50%, -50%) rotate(360deg);
+  }
+
+}
+
+
+
+/* =====================================================
+   LOAD ANIMATION
+===================================================== */
+
+.hero,
+.side-index,
+.right-note,
+.bottom-left,
+.topbar,
+.signature {
+
+  animation:
+    fadeUp 1s cubic-bezier(.2, .7, .2, 1) both;
+
+}
+
+
+.topbar {
+  animation-delay: 0.1s;
+}
+
+.side-index {
+  animation-delay: 0.2s;
+}
+
+.hero {
+  animation-delay: 0.25s;
+}
+
+.right-note {
+  animation-delay: 0.45s;
+}
+
+.bottom-left {
+  animation-delay: 0.55s;
+}
+
+.signature {
+  animation-delay: 0.6s;
+}
+
+
+@keyframes fadeUp {
+
+  from {
+
+    opacity: 0;
+
+    transform:
+      translateY(18px);
+
+  }
+
+  to {
+
+    opacity: 1;
+
+    transform:
+      translateY(0);
+
+  }
+
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1100px) {
+
+  .hero {
+
+    left: 12%;
+
+  }
+
+  .moon-system {
+
+    right: 3%;
+
+    opacity: 0.75;
+
+  }
+
+  .right-note {
+
+    right: 7%;
+
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+  body {
+
+    overflow: hidden;
+
+  }
+
+
+  .landing {
+
+    min-height: 100svh;
+
+  }
+
+
+  .background {
+
+    background-position:
+      62% center;
+
+  }
+
+
+  .background-overlay {
+
+    background:
+      linear-gradient(90deg,
+        rgba(247, 247, 245, 0.82),
+        rgba(247, 247, 245, 0.38));
+
+  }
+
+
+  .topbar {
+
+    top: 25px;
+
+    left: 22px;
+
+    right: 22px;
+
+  }
+
+
+  .brand {
+
+    font-size: 10px;
+
+  }
+
+
+  .top-status {
+
+    font-size: 7px;
+
+  }
+
+
+  .side-index {
+
+    display: none;
+
+  }
+
+
+  .hero {
+
+    left: 24px;
+
+    right: 24px;
+
+    top: 22%;
+
+    width: auto;
+
+  }
+
+
+  .eyebrow {
+
+    font-size: 8px;
+
+    letter-spacing: 0.17em;
+
+  }
+
+
+  .eyebrow span {
+
+    margin: 0 4px;
+
+  }
+
+
+  .name {
+
+    font-size: clamp(65px, 20vw, 105px);
+
+  }
+
+
+  .name-note {
+
+    display: none;
+
+  }
+
+
+  .hero-divider {
+
+    margin-top: 27px;
+
+    margin-bottom: 18px;
+
+  }
+
+
+  .intro {
+
+    max-width: 340px;
+
+    font-size: 14px;
+
+    line-height: 1.65;
+
+  }
+
+
+  .socials {
+
+    margin-top: 25px;
+
+    gap: 11px;
+
+  }
+
+
+  .socials a {
+
+    font-size: 11px;
+
+  }
+
+
+  .moon-system {
+
+    width: 270px;
+
+    height: 270px;
+
+    right: -75px;
+
+    top: 14%;
+
+    opacity: 0.55;
+
+  }
+
+
+  .orbit-one {
+
+    width: 190px;
+
+    height: 190px;
+
+  }
+
+
+  .orbit-two {
+
+    width: 250px;
+
+    height: 250px;
+
+  }
+
+
+  .right-note {
+
+    display: none;
+
+  }
+
+
+  .bottom-left {
+
+    left: 22px;
+
+    bottom: 35px;
+
+  }
+
+
+  .signature {
+
+    right: 22px;
+
+    bottom: 35px;
+
+  }
+
+
+
+  .footer {
+
+    display: none;
+
+  }
+
+}
+
+
+/* =====================================================
+   SMALL PHONES
+===================================================== */
+
+@media (max-width: 420px) {
+
+  .hero {
+
+    top: 20%;
+
+  }
+
+
+  .name {
+
+    font-size: 68px;
+
+  }
+
+
+  .intro {
+
+    font-size: 13px;
+
+  }
+
+
+  .socials {
+
+    flex-wrap: wrap;
+
+  }
+
+}
+
+
+/* =====================================================
+   REDUCED MOTION
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+
+    animation-duration: 0.01ms !important;
+
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+
+  }
+
+}
